@@ -13,8 +13,4 @@ api:
     storage: http://localhost:8765/storage/
     person: http://localhost:8765/person/
 
-shop:
-  account:
-    number: 3
-
 tmpVar: configServer
