@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          person:
+            url: http://localhost:8765/person
+          storage:
+            url: http://localhost:8765/storage
+
+api:
+  basic-uri:
+    storage: http://localhost:8765/storage/
+    person: http://localhost:8765/person/
+
+shop:
+  account:
+    number: 3
+
+tmpVar: configServer
